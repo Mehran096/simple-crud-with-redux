@@ -1,0 +1,30 @@
+$theme-colors: (
+  "primary":    #6e468a,
+  "danger":     #f81408,
+  "warning": #ffab00,
+  "success": #33691e,
+  "white": #fefefe,
+  "dark": #535c68,
+  "light": #f5f6fa,
+  "lightDark": #7f8fa6,
+  "ligthSuccess": #4cd137,
+  "ligthDanger": #ff3838
+);
+
+
+
+@import "~bootstrap/scss/bootstrap";
+
+
+body{
+  padding-top: 5rem;
+}
+
+.right{
+  margin-right: 3rem!important;
+}
+
+.to__left{
+  margin-left: 3rem!important;
+}
+ 
